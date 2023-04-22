@@ -1,0 +1,1253 @@
+/*navbar*/
+
+.navbar{
+    background-color: #8c5ca9;
+}
+.padding_for_nav{
+    padding: 10px 15px;
+}
+
+.logo{
+    cursor: pointer;  
+}
+.nav-item{
+    color: #e2dfdf;
+    cursor: pointer;
+    font-family: 'Rancho', cursive;
+    font-style: normal;
+    text-align: center;
+    margin: 0 20px;
+}
+.nav-bar-color{
+    color: #e2dfdf;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.nav-item:hover{
+    color: #5c5c5c;
+    font-size: 150%;
+    background-color: #7a20b3;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+/*about us section*/
+
+
+
+.home_sect_pic{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.about_us_title{
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #535353;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 54px; 
+    padding-top: 50px;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+.about_us_intro{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #535353;
+    padding-top: 30px;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+
+}
+
+
+.three_defining_traits{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+table {
+    
+    width: 100% !important; 
+    text-align: center;
+    font-size: 25px;
+    
+}
+.what{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 30px;
+    color: #000000;
+}
+
+.what_we{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    letter-spacing: 0.090em !important;
+    color: #535353;
+    line-height: 50px;
+    
+}
+
+/*Our Litters*/
+
+.about_our_litters{
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #535353;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 54px; 
+    padding-top: 50px;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+.about_our_litters_intro{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content:  center;
+    text-align: center;
+    color: #535353;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+}
+div.padding_between_dogs{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+div.gallery {
+    background-color: #8c5ca9;
+    display: flex;
+    justify-content: center;
+    padding: 12px !important;
+    flex-direction: column !important;
+}
+img.image_card{
+    width: 100%;
+}
+
+div.padding_after_name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.desc {
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    justify-content: left;
+    color: #535353;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px; 
+    padding-top: 10px;
+}
+img.more_info_pic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.our_dogs{
+    background-color: #8c5ca9;
+    padding-bottom: 20px;
+}
+
+.our_dogs_title{
+    display: flex;
+    font-family: 'Dongle', sans-serif;
+    justify-content: center;
+    color: #e2dfdf;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 54px; 
+    padding-top: 50px;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+.our_dogs_intro{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #e2dfdf;
+    padding-top: 30px;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+
+}
+
+div.male_dogs_picture{
+    display: flex;
+    justify-content: center;
+    padding: 12px !important;
+    
+}
+img.papa_dog_card{
+    border: 10px solid #e2dfdf;
+}
+
+div.padding_for_pics{
+    padding-top: 40px;
+}
+
+.name_of_dog{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #e2dfdf;
+    padding-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0.090em;
+}
+
+.name_of_fdog{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #e2dfdf;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+div.images_moms{
+    display: flex;
+    justify-content: center;
+}
+.our_team{
+    
+    padding-bottom: 20px;
+    background-color: #8c5ca9;
+    display: flex;
+    justify-content: center;
+}
+div.family_picture{
+    display: flex;
+    justify-content: center;
+}
+img.happy_family{
+    border: 10px solid #e2dfdf;
+    width: 50%;
+    padding: 0px !important;
+}
+a.akc-intro{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #e2dfdf;
+    padding-top: 30px;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+    text-decoration: none;
+}
+
+.dad_desc{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 35px !important;
+    letter-spacing: 0.090em !important;
+    color: #e2dfdf;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.mom_desc{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 35px !important;
+    letter-spacing: 0.090em !important;
+    color: #e2dfdf;
+    line-height: 50px;
+    text-align: center;
+    padding-right: 40px !important;
+}
+
+.contact_us_row{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.contact_us{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*Single_Puppy*/
+div.slides_padding{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+div.picture_padding{
+    padding-top: 70px;
+    
+}
+div.another_padding{
+    padding-left: 30px;
+}
+
+
+div.name_of_pupy{
+    display: flex;
+    justify-content: center;
+}
+h1.name_pupies{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: #535353;
+    padding-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0.090em;
+}
+span.bolder_t{
+    font-weight: 800;
+}
+p.pup_gen{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #535353;
+    padding-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0.090em;
+}
+p.pup_intro{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    justify-content:  center;
+    text-align: center;
+    color: #535353;
+    line-height: 40px;
+    letter-spacing: 0.090em;
+}
+p.pup_intro_tag{
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content:  center;
+    text-align: center;
+    color: #535353;
+    line-height: 50px;
+    letter-spacing: 0.090em;
+}
+
+div.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+a.my_email_address{
+    background-color: #8c5ca9;
+    border-radius: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #e2dfdf;
+    padding: 8px 25px;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+
+
+.footer{
+    background-color: #8c5ca9;
+    margin-top: 30px;
+    padding-top: 30px;
+
+}
+.looking{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 35px;
+    color: #e2dfdf;
+    letter-spacing: 0.075em;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.home_icons{
+    display: flex;
+    justify-content: center;
+}
+.linked_in{
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px;
+    
+}
+.github{
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px;
+}
+.copyright{
+    font-family: 'Dongle', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    color: #e2dfdf;
+    margin-top: 30px;
+    letter-spacing: 0.075em;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media only screen and (max-width: 480px){
+    .about_us_title{
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .about_us_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #535353;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    
+    }
+    table {
+    
+        width: 100% !important; 
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .what{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 20px;
+        color: #000000;
+    }
+    
+    .what_we{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        letter-spacing: 0.090em !important;
+        color: #535353;
+        line-height: 20px;
+        
+    }
+    .about_our_litters{
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .about_our_litters_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+    div.padding_between_dogs{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    div.center_picture{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    div.gallery {
+        background-color: #8c5ca9;
+        display: flex;
+        justify-content: center;
+    }
+    img.image_card{
+        width: 100%;
+    }
+    
+    div.padding_after_name{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.desc {
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px; 
+    }
+    div.padding_r{
+        display: flex;
+        justify-content: center ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    .our_dogs{
+        background-color: #8c5ca9;
+        padding-bottom: 20px;
+    }
+    
+    .our_dogs_title{
+        display: flex;
+        font-family: 'Dongle', sans-serif;
+        justify-content: center;
+        color: #e2dfdf;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .our_dogs_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #e2dfdf;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    
+    }
+    
+    div.male_dogs_picture{
+        display: flex;
+        justify-content: center;
+        padding: 12px !important;
+        
+    }
+    img.papa_dog_card{
+        border: 10px solid #e2dfdf;
+    }
+    
+    .name_of_dog{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: #e2dfdf;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+    }
+    
+    .name_of_fdog{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: #e2dfdf;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+  
+  
+    .our_team{
+        
+        padding-bottom: 20px;
+        background-color: #8c5ca9;
+        display: flex;
+        justify-content: center;
+    }
+    div.family_picture{
+        display: flex;
+        justify-content: center;
+    }
+    img.happy_family{
+        border: 10px solid #e2dfdf;
+        width: 50%;
+        padding: 0px !important;
+    }
+    a.akc-intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #e2dfdf;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+        text-decoration: none;
+    }
+    
+    .dad_desc{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+        letter-spacing: 0.090em !important;
+        color: #e2dfdf;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+    .mom_desc{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+        letter-spacing: 0.090em !important;
+        color: #e2dfdf;
+        line-height: 50px;
+        text-align: center;
+        padding-right: 40px !important;
+    }
+    
+    .contact_us_row{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .contact_us{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    /*Single_Puppy*/
+    div.slides_padding{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
+    div.picture_padding{
+        padding-top: 70px;
+        
+    }
+    div.another_padding{
+        padding-left: 30px;
+    }
+    
+    
+    div.name_of_pupy{
+        display: flex;
+        justify-content: center;
+    }
+    h1.name_pupies{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+    }
+    span.bolder_t{
+        font-weight: 800;
+    }
+    p.pup_gen{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        color: #535353;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+        display: flex;
+        justify-content: center;
+    }
+    p.pup_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 40px;
+        letter-spacing: 0.090em;
+    }
+    p.pup_intro_tag{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+    
+    div.contact{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    a.my_email_address{
+        background-color: #8c5ca9;
+        border-radius: 30px;
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        color: #e2dfdf;
+        padding: 8px 25px;
+        display: flex;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 60px;
+    }
+    
+    
+    
+    .footer{
+        background-color: #8c5ca9;
+        margin-top: 30px;
+        padding-top: 30px;
+    
+    }
+    .looking{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+        color: #e2dfdf;
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .home_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .linked_in{
+        width: 40px;
+        height: 40px;
+        margin: 20px 20px;
+        
+    }
+    .github{
+        width: 40px;
+        height: 40px;
+        margin: 20px 20px;
+    }
+    .copyright{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 35px;
+        color: #e2dfdf;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        display: flex;
+        justify-content: center;
+    
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px){
+    .about_us_title{
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .about_us_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #535353;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    
+    }
+    table {
+    
+        width: 100% !important; 
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .what{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 20px;
+        color: #000000;
+    }
+    
+    .what_we{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        letter-spacing: 0.090em !important;
+        color: #535353;
+        line-height: 20px;
+        
+    }
+    .about_our_litters{
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .about_our_litters_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+    div.padding_between_dogs{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    div.center_picture{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    div.gallery {
+        background-color: #8c5ca9;
+        display: flex;
+        justify-content: center;
+    }
+    img.image_card{
+        width: 100%;
+    }
+    
+    div.padding_after_name{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.desc {
+        font-family: 'Dongle', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px; 
+    }
+    div.padding_r{
+        display: flex;
+        justify-content: center ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img.more_info_pic{
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+    .our_dogs{
+        background-color: #8c5ca9;
+        padding-bottom: 20px;
+    }
+    
+    .our_dogs_title{
+        display: flex;
+        font-family: 'Dongle', sans-serif;
+        justify-content: center;
+        color: #e2dfdf;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 54px; 
+        padding-top: 50px;
+        text-decoration:underline;
+        text-decoration-style: dashed;
+    }
+    
+    .our_dogs_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #e2dfdf;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    
+    }
+    
+    div.male_dogs_picture{
+        display: flex;
+        justify-content: center;
+        padding: 12px !important;
+        
+    }
+    img.papa_dog_card{
+        border: 10px solid #e2dfdf;
+    }
+    
+    .name_of_dog{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: #e2dfdf;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+    }
+    
+    .name_of_fdog{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: #e2dfdf;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+  
+  
+    .our_team{
+        
+        padding-bottom: 20px;
+        background-color: #8c5ca9;
+        display: flex;
+        justify-content: center;
+    }
+    div.family_picture{
+        display: flex;
+        justify-content: center;
+    }
+    img.happy_family{
+        border: 10px solid #e2dfdf;
+        width: 50%;
+        padding: 0px !important;
+    }
+    a.akc-intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #e2dfdf;
+        padding-top: 30px;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+        text-decoration: none;
+    }
+    
+    .dad_desc{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+        letter-spacing: 0.090em !important;
+        color: #e2dfdf;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+    .mom_desc{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+        letter-spacing: 0.090em !important;
+        color: #e2dfdf;
+        line-height: 50px;
+        text-align: center;
+        padding-right: 40px !important;
+    }
+    
+    .contact_us_row{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .contact_us{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    /*Single_Puppy*/
+    div.slides_padding{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
+    div.picture_padding{
+        padding-top: 70px;
+        
+    }
+    div.another_padding{
+        padding-left: 30px;
+    }
+    
+    
+    div.name_of_pupy{
+        display: flex;
+        justify-content: center;
+    }
+    h1.name_pupies{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        color: #535353;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+    }
+    span.bolder_t{
+        font-weight: 800;
+    }
+    p.pup_gen{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        color: #535353;
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 0.090em;
+        display: flex;
+        justify-content: center;
+    }
+    p.pup_intro{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 40px;
+        letter-spacing: 0.090em;
+    }
+    p.pup_intro_tag{
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        display: flex;
+        justify-content:  center;
+        text-align: center;
+        color: #535353;
+        line-height: 50px;
+        letter-spacing: 0.090em;
+    }
+    
+    div.contact{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    a.my_email_address{
+        background-color: #8c5ca9;
+        border-radius: 30px;
+        font-family: 'Dongle', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        color: #e2dfdf;
+        padding: 8px 25px;
+        display: flex;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 60px;
+    }
+    
+    
+    
+    .footer{
+        background-color: #8c5ca9;
+        margin-top: 30px;
+        padding-top: 30px;
+    
+    }
+    .looking{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+        color: #e2dfdf;
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .home_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .linked_in{
+        width: 40px;
+        height: 40px;
+        margin: 20px 20px;
+        
+    }
+    .github{
+        width: 40px;
+        height: 40px;
+        margin: 20px 20px;
+    }
+    .copyright{
+        font-family: 'Dongle', sans-serif !important;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 35px;
+        color: #e2dfdf;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        display: flex;
+        justify-content: center;
+    
+    }
+}

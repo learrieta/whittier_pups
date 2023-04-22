@@ -1,0 +1,38 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg">
+    <div class="container-xxl  padding_for_nav">
+        <a class="logo" href="/"><img class="img-fluid logo_mod"  src="{% static 'images/logo.png' %}"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about_us' %}#anchor_our_dogs"><h3 class="nav-bar-color">Our Dogs</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about_us' %}#anchor_our_litters"><h3 class="nav-bar-color">Our Litter</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about_us' %}#anchor_our_team"><h3 class="nav-bar-color">Our Team</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about_us' %}#anchor_contact_us"><h3 class="nav-bar-color">Contact Us</h3></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+

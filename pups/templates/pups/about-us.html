@@ -1,0 +1,184 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<section class="home_section">
+    <div class="container-fluid">
+        <div class="row row_padding">
+            <img class="img-responsive home_sect_pic"  src="{% static 'images/labs_trio.png' %}">
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="about_us">
+    <div class="container-xl ">
+        <div class="row">
+            <h1 class="about_us_title"> A Bit More About Us</h1>
+            <p class=" about_us_intro">
+                Whittier Pups is a family run business by Jason and Jennifer Whittier and our 6 children located in Western MA (Hampden County).
+                Jason and Jennifer grew up with dogs and knew when we had kids that we wanted our kids to experience the special bond between a child and a dog.
+                We fell in love with the labrador retreiver breed after researching what would be the best fit for our family. Labrador Retreivers are gentle and docile with children and adults,
+                eager to please, and overall a terrific addition to any family dynamic.  
+            </p>
+        </div> 
+    </div>
+</section>
+
+<section class="three_defining_traits">
+    <div class="container-xl">
+        <div class="table-responsive-xl">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th><img class="img-responsive"  src="{% static 'images/paw.png' %}"></th>
+                        <th><img class="img-responsive"   src="{% static 'images/walk.png' %}"></th>
+                        <th><img class="img-responsive" src="{% static 'images/rain.png' %}"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <th class="what" >WHAT WE DO</th>
+                        <th class="what">WHY WE DO IT</th>
+                        <th class="what">HOW WE DO IT</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr >
+                        <th class="what_we">At Whittier pups, we breed working Labrador Retriever with care and special attention given to the genetic and hereditary traits. We find important to produce a litter when we have an improvement in mind. </th>
+                        <th class="what_we">Labradors Retrievers are the dogs we breed, the dogs we love and the dogs we devote our life to.We have the improvements of this unique breed at heart and try to give birth to the most amazing working line ever.</th>
+                        <th class="what_we">Only our best dogs are bred and, helped by vets and professionals, we handpick their partners from other successful and famous bloodlines in order to equip the litters with a wonderful genetic variation.</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="anchor_our_dogs" class="our_dogs">
+    <div class="container-xl">
+        <div class="row">
+            <h1 class="our_dogs_title"> Our Dogs</h1>
+            <p class=" our_dogs_intro">
+                Our labs are our own personal pets that we have had the honor of raising.
+                We feel so blessed to have this wonderful Labrador breed in our life. Our labs have brought us so much joy, love and happiness.
+                They are more than just another dog, our Labradors and their offspring are part of our family. In addition, we hope they will become be part of yours.
+            </p>
+        </div>
+        <div class="row">
+            <div class="male_dogs_picture">
+                <img   src="{% static 'images/brown_lab.jpg' %}" class="img-responsive papa_dog_card">
+            </div>
+        </div> 
+        <div class="row">
+            <h1 class="name_of_dog">River(male)</h1>
+        </div>
+        <div class="row padding_for_pics">
+            <div class="col-md-6">
+                <div class="images_moms">
+                    <img class="img-responsive papa_dog_card"  src="{% static 'images/images.jpg' %}">
+                </div>
+                <div class="images_moms_name">
+                    <p class="name_of_fdog" >Willow(female)</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="images_moms">
+                    <img class="img-responsive papa_dog_card"  src="{% static 'images/white_dog.jpg' %}">
+                </div>
+                <div class="images_moms_name">
+                    <p class="name_of_fdog" >Lilly(female)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="anchor_our_litters" class="our_litter">
+    <div class="container-xl">
+        <div class="row">
+            <h1 class="about_our_litters"> Available Puppies</h1>
+            <p class="about_our_litters_intro">
+                Our first litter is here!<br>
+                We are excited to announce that our girl's first pregnacy was successful and we are able to welcome 10 healthy puppies.
+            </p>
+            <div class="row center_picture">
+                {% for litter in baby %}  
+                    <div class="col-md-4">
+                        <div class="gallery">
+                            <a href="{% url 'single_puppy' litter.id %}">  <img class="img-responsive image_card"  src="{{ litter.feature_image.url}}"></a>
+                        </div>
+                        <div class="row padding_between_dogs">
+                            <div class="col-md-6 padding_after_name">
+                                <div class="desc">{{litter.name}} ( {{litter.gender}})</div>
+                                <div class="desc">{{litter.age}}</div>
+                                <div class="desc">Color : {{litter.color}}</div>
+                            </div>
+                            <div class="col-md-6  padding_r">
+                                <a href="{% url 'single_puppy' litter.id %}"><img class="img-responsive more_info_pic"  src="{% static 'images/More Info.png' %}"></a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  id="anchor_our_team" class="our_team">
+    <div class="container-xl">
+        <div class="row  our_team">
+            <h1 class="our_dogs_title"> Our Team</h1>
+        </div>
+        <div class="row family_picture">
+            <img class="image-responsive happy_family"   src="{% static 'images/family.jpg' %}">
+        </div>
+        <div class="row">
+            <a class="akc-intro" href="https://marketplace.akc.org/breeder/jen-whittier-149074">AKC Profile</a>
+            <p class=" our_dogs_intro" style="padding-bottom: 30px;">
+                We are a small (despite having 6 kids and number 7 on the way) family run breeder and we want to keep it that way. Our goal is to provide a special companion to each one of our forever homes. 
+                Jason is a full time middle school ESL teacher and Jennifer is a stay at home mom. Our children range in age from 15 to 2 years old. Your new family member will have lots of hands on experience with kids and will come well socialized! We also have 2 cats that our puppies are always curious about. 
+            </p>
+        </div>
+</section>
+
+<section id="anchor_contact_us" class="contact_us">
+    <div class="container-xl">
+        <div class="row contact_us_row">
+            <h1 class="about_us_title">Contact Us</h1>
+        </div> 
+        <div class="table-responsive-xl">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th><img class="img-responsive"  src="{% static 'images/dog.png' %}"></th>
+                        <th><img class="img-responsive"   src="{% static 'images/contact-us.png' %}"></th>
+                        <th><img class="img-responsive" src="{% static 'images/location.png' %}"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <th class="what" >Thank You!</th>
+                        <th class="what">Get In Touch</th>
+                        <th class="what">Our Location</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr >
+                        <th class="what_we">We are greatful that you <br>spent the time to visit our<br> website and hope to hear from <br> you very soon. We enjoy<br> talking to both<br> specialists and amateurs. </th>
+                        <th class="what_we">Drop us a line and<br> we will get back to you<br> within a few hours, we promise.<br>whittierlabs@gmail.com<br>Jason and Jennifer @ (774)330-9671</th>
+                        <th class="what_we">Located Western MA (Hampden County)</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
+
+   
