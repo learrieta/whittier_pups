@@ -81,13 +81,15 @@ WSGI_APPLICATION = 'whittier_pups_props.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+USER = config('USER')
+NAME = config('NAME')
 PASSWORD = config('PASSWORD')
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'whittier_db',
-        'USER' : 'postgres',
+        'NAME': NAME,
+        'USER' : USER,
         'PASSWORD' : PASSWORD,
         'HOST' : 'database-1.c1ubjmvhsvk6.us-west-2.rds.amazonaws.com',
         'PORT' : '5432'
