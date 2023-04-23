@@ -26,9 +26,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast = bool)
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*','https://whittierpups-production.up.railway.app/']
 
-CSRF_TRUSTED_ORIGINS = ['whittierpups-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://whittierpups-production.up.railway.app/']
 
 # Application definition
 
