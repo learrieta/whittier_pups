@@ -791,9 +791,9 @@ a.my_email_address{
         font-family: 'Dongle', sans-serif;
         font-style: normal;
         font-weight: 800;
-        font-size: 30px;
+        font-size: 20px;
         color: #e2dfdf;
-        padding: 8px 25px;
+        padding: 8px 15px;
         display: flex;
         text-decoration: none;
         display: inline-block;
