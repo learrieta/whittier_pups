@@ -787,13 +787,13 @@ a.my_email_address{
     }
     a.my_email_address{
         background-color: #8c5ca9;
-        border-radius: 30px;
+        border-radius: 20px;
         font-family: 'Dongle', sans-serif;
         font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 18px;
         color: #e2dfdf;
-        padding: 8px 15px;
+        padding: 8px 10px;
         display: flex;
         text-decoration: none;
         display: inline-block;
