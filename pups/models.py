@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
     
 class BabyDogs(models.Model):
+    is_sold = models.CharField(max_length=200, null=True)
     name = models.CharField(max_length=200)
     age = models.CharField(max_length=200)
     price = models.CharField(max_length=200)
@@ -16,6 +17,7 @@ class BabyDogs(models.Model):
     page_picture4 = models.ImageField(null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
     tags = models.ManyToManyField('Tag', blank=True)
+
 
 
     def __str__(self):
