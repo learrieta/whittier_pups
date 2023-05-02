@@ -43,9 +43,16 @@
         </div>
       </div>
       <div class="col-md-7 another_padding">
-        <div class="name_of_puppy">
-          <h1 class="name_pupies">{{single_puppy.name}}</h1>
-        </div>
+        {% if single_puppy.is_sold == "RESERVED" %}
+          <div class="name_of_puppy">
+            <h1 class="name_pupies">{{single_puppy.is_sold}}</h1>
+            <h1 class="name_pupies">{{single_puppy.name}}</h1>
+          </div>
+        {% else %}
+          <div class="name_of_puppy">
+            <h1 class="name_pupies">{{single_puppy.name}}</h1>
+          </div>
+        {% endif %}
         <div class="row">
           <div class="col-md-6">
             <p class="pup_gen" > <span class="bolder_t">Gender:</span> {{single_puppy.gender}}</p>
